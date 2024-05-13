@@ -1,0 +1,53 @@
+/* CSS code for styling the form */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/qoute-bg.jpg");
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+}
+
+form {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    width: 400px; /* Adjust the width as needed */
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #55565B;   
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white; /* Adjust label color */
+}
+
+input[type="checkbox"],
+label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input[type="text"] {
+    width: 60%; /* Adjust width as needed */
+    padding: 8px;
+    margin-bottom: 18px;
+    border-radius: 10px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #F1335D;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}

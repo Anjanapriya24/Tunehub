@@ -1,0 +1,39 @@
+/* adminhome.css */
+
+/* Style for the container div */
+div {
+  width: 300px; /* Adjust width as needed */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+   margin-right: 10px;
+}
+
+
+body{
+	background-image: url("images/admin-bg.jpg");
+	background-position: center;
+	background-size: cover;
+}
+
+/* Style for the buttons */
+input[type="submit"] {
+  display: block; /* Make buttons block-level elements */
+  width: 100%; /* Occupy full width of the container */
+  padding: 35px;
+  margin-bottom: 20px; /* Add some space between buttons */
+  border: none;
+  background-color:#F1335D; /* pink */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+ 
+  
+}
+
+/* Hover effect */
+input[type="submit"]:hover {
+  background-color: grey; /* Darker green */
+}

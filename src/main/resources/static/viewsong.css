@@ -1,0 +1,32 @@
+/* CSS code for styling the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid #ccc;
+    margin-top: 10px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #F1335D;
+}
+
+tr:nth-child(even) {
+    background-color: grey;
+}
+
+/* CSS code for styling the audio controls */
+audio {
+    width: 100%;
+    margin-top: 5px;
+}
+
+/* CSS code for styling the table header */
+thead {
+    font-weight: bold;
+}

@@ -1,0 +1,124 @@
+/* CSS code for styling the customer home page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+   background-image: url("https://cdn.wallpapersafari.com/96/93/6udL8E.jpg");
+     background-size: cover; 
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+img{
+	margin-right: 20px;
+	border-radius: 70px;
+}
+
+.container img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 20px 20px;
+    background-color: #F1335D;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+    margin: 10px auto;
+    margin-bottom: 50px 50px;
+    width:200px;
+    margin-top: 90px;
+}
+
+input[type="submit"]:hover {
+    background-color: grey;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #F1335D;
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.audio-controls {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+/* CSS code for styling the table */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("images/playlistimg.jpg");
+    background-size: cover; 
+}
+
+table {
+    width: 99%;
+    margin: 12px;
+    border-collapse: collapse;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity here */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+thead {
+    background-color: rgba(241, 51, 93, 0.8); /* Adjust the opacity here */
+    color: #fff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(242, 242, 242, 0.5); /* Adjust the opacity here */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+audio {
+    width: 250px;
+}
+
